@@ -3,3 +3,24 @@ git add filename
 
 第二步，用命令git commit告诉Git，把文件提交到仓库：
 git commit -m "这里是备注信息，本次提交的说明！"
+
+
+练习：
+多次添加，然后提交
+git add file1.txt
+git add file2.txt file3.txt
+git commit -m "add 3 files."
+
+------------
+
+git status命令可以让我们时刻掌握仓库当前的状态
+
+----------------------------------------
+git WARNING: terminal is not fully functional
+
+每次git 命令的时候，都会提示terminal is not fully functional
+解决方法
+1、打开windows的高级系统设置
+2、环境变量
+3、系统变量中新建一个变量名为TERM，值为cygwin
+----------------------------------------
