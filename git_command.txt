@@ -12,7 +12,7 @@ git add file2.txt file3.txt
 git commit -m "add 3 files."
 
 ------------
-
+状态查询
 git status命令可以让我们时刻掌握仓库当前的状态
 
 ----------------------------------------
@@ -24,3 +24,5 @@ git WARNING: terminal is not fully functional
 2、环境变量
 3、系统变量中新建一个变量名为TERM，值为cygwin
 ----------------------------------------
+
+版本回退
